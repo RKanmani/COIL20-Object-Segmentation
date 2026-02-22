@@ -14,7 +14,7 @@ COIL-20 unprocessed dataset contains grayscale images of 5 objects captured from
 
 COIL-20 processed dataset contains grayscale images of 20 objects captured from multiple viewpoints, in which background is cropped.
 
-Download the dataset manually and place the folders in your Google Drive as described below.
+Download the dataset manually, extract the folders and place the folders in your Google Drive as described below.
 
 ---
 
@@ -71,20 +71,12 @@ drive.mount('/content/drive')
 
 ## How to Run
 
-1. Upload `coil-20-proc` and `coil-20-unproc` folders to Google Drive.
+1. Extract and Upload `coil-20-proc` and `coil-20-unproc` folders to Google Drive.
 2. Ensure the `base_path` variable matches your Drive location.
 3. Run the script in Google Colab.
 4. Segmented outputs will be saved automatically in:
    - `output_processed/`
    - `output_unprocessed/`
-
----
-
-## Repository Structure
-
-├── segmentation_script.py  
-├── report.pdf  
-├── README.md  
 
 ---
 
